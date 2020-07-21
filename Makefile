@@ -1,6 +1,6 @@
 CFLAGS=-std=c11 -g -static
 
-voidcc: voidcc.cpp
+voidcc: voidcc.c
 
 test: voidcc
 	./test.sh
